@@ -1,0 +1,21 @@
+# source: http://xahlee.info/linux/linux_set_F2_F3_F4_to_cut_copy_paste.html
+
+# make F1 do Ctrl+PageUp
+"xvkbd -no-jump-pointer -xsendevent -text '\C\[Prior]'"
+F1
+
+# make F2 do Ctrl+PageDown
+"xvkbd -no-jump-pointer -xsendevent -text '\C\[Next]'"
+F2
+
+# make F3 do copy
+"xvkbd -no-jump-pointer -xsendevent -text '\C\[Insert]'"
+F3
+
+# make F4 do paste
+"xvkbd -no-jump-pointer -xsendevent -text '\S\[Insert]'"
+F4
+
+# make F12 do Ctrl+w
+"xvkbd -no-jump-pointer -xsendevent -text '\Cw'"
+F12
